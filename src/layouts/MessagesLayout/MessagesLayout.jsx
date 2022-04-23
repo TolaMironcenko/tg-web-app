@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './MessagesLayout.module.css'
 
-const MessagesLayout = ({children}) => {
+const ChatLayout = ({children}) => {
     return (
-        <div className={styles.messages}>
+        <div className={styles.chatlayout}>
             {children}
         </div>
     );
 };
 
-export default MessagesLayout;
+export default ChatLayout;

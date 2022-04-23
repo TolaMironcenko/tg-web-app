@@ -1,15 +1,7 @@
-.message {
-    width: 100%;
-    height: 100px;
+.mes {
+    width: 500px;
+    height: 200px;
     border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.2s;
-    color: white;
-}
-
-.message:hover {
-    background-color: rgb(87, 84, 84);
+    background-color: red;
+    margin-bottom: 5px;
 }

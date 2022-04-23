@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Message.module.css'
 
-const Message = ({children}) => {
+const Mes = ({children}) => {
     return (
-        <div className={styles.message}>
+        <div className={styles.mes}>
             {children}
         </div>
     );
 };
 
-export default Message;
+export default Mes;
