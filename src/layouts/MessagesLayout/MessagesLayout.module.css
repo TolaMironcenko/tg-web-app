@@ -1,0 +1,7 @@
+.messages {
+    width: 40%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: rgb(28, 27, 27);
+    padding: 10px;
+}

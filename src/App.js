@@ -1,23 +1,60 @@
-import logo from './logo.svg';
 import './App.css';
+import MessagesLayout from './layouts/MessagesLayout/MessagesLayout';
+import Avatar from './components/Avatar/Avatar';
+import Message from './components/Message/Message';
+import ChatLayout from './layouts/ChatLayout/ChatLayout';
+import Textbtn from './components/Textbtn/Textbtn';
+import Audiobtn from './components/Audiobtn/Audiobtn';
+import Videobtn from './components/Videobtn/Videobtn';
+import TopChatLayout from './layouts/TopChatLayout/TopChatLayout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MessagesLayout>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+        <Message>
+          <Avatar/>
+          udfhiluvszfdluihvlzid
+        </Message>
+      </MessagesLayout>
+      <ChatLayout>
+        <TopChatLayout>
+          <Avatar/>
+        </TopChatLayout>
+        <div className='btns'>
+          <Videobtn/>
+          <Textbtn/>
+          <Audiobtn/>
+        </div>
+      </ChatLayout>
     </div>
   );
 }

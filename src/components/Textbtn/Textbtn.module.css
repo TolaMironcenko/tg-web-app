@@ -1,0 +1,10 @@
+.textbtn {
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
